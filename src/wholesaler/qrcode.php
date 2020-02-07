@@ -54,13 +54,15 @@
                 hasharr.replace(content,"");
                 console.log(hasharr);
                 alert("Authenticated!!");
-                count++;
-                if(count==total)
-                {
-                    alert("All hash have been matched!!")
-                }
+
+                // count++;
+                // if(count==total)
+                // {
+                //     alert("All hash have been matched!!")
+                // }
             }else{
-                alert("Fraud QR Code!!!!!!");
+                window.location.href = "../track.html";
+                // alert("Fraud QR Code!!!!!!");
             }
             // window.open(content, "_blank");
         });
